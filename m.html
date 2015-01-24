@@ -1,0 +1,2022 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Mahbub alam">
+<title>C Language</title>
+<link rel="icon" type="image/x-icon" href="images/16.png/"/>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="home">
+	<div data-role="header">
+		<h1>C Language</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><marquee behavior="alternate" scrollamount="3" href="http://aobangla.tk/c/">-----------You need this before & after learn C language. On this app i include ISO standard C  with new development-----------</marquee>
+			<li><a href="#history">C History</a></li>
+            <li><a href="#keywords">C keywords</a></li>
+			<li><a href="#built-in">C Built-in Function</a></li>
+			<li><a href="#support">Support</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4> &copy;  mahbub alam</h4>
+	</div>
+</div>
+
+<div data-role="page" id="history">
+	<div data-role="header">
+    <a href="#home">Home</a>
+		<h1>C History</h1>
+	</div>
+	<div data-role="content">	
+		<p>The root of all modern languages is ALGOL, introduced in the early 1960s. ALGOL was the first computer language to use a block structure. Although it never becaming populer in USA, it was widely used in Europe. ALGOL gave the concept of structured programming to the computer science community. Computer scientists like corrado Bohm, Guiseppe Jacopini and Edsger Dijkstra popularized this concept during 1960s. Subsequently, several language were announced.</p>
+		<p>In 1967, Martin Richards developed a language called BCPL(Basic Combined Programming Language) Primarilly for writing system software. In 1970, Ken Thompson created a language using many features of BCPL and called it simply B. B was used to create early versions of UNIX operating system at Bell laboratories. Both BCPL and B were &quot;typeless&quot; system programming languages.</p>
+		<p>Cwas evolved from ALGOL. BCPL and B by Dennis Ritchie at the Bell Laboratories in 1972. C uses many concepts from these languages and added the concept of data types and other powerful features. Since it was developed along with the UNIX operating system. It is strongly associated with UNIX. This operating system, which was also developed at Bell laboratories, was coded almost entirely in C. UNIX is one of the most popular network operating systems in use today and the heart of the internet data superhighway.</p>
+		<p>For many years, C was used mainly in academic environments. but eventually with the relese of many C compilers for commercial use and the increasing popularity of UNIX, it began to gain widespread support among computer professionals. Today, C is running under a variety of operating system and hardware platforms.</p>
+		<p>During 1970s, C had evolved into what is now known as traditional c&quot;. the language became more popular after publication of the book &quot;The C Programming Language&quot; by Brian Kerningham and Dennis Ritchie in 1978. The rapid growth of C led to the development of different versions of the language that were similar but often incompatible. This posed a serious problem for system developers to assure that the C language remains standard. In 1983, American National Standards Institute(ANSI) appointed a technical comittee to define a standard for C. The committee approved a version of C in December 1989 which is now known as ANSI C. It was then approved by the International Standards Organization(ISO) in 1990. The version of c is also referred to as c89.</p>
+		<p>Then, c make changes with other language(c++,java) behavior. This version is usually referred to as C99.</p>
+	</div>
+	<div data-role="footer">
+		<h4>&copy;  mahbub alam</h4>
+	</div>
+</div>
+
+<div data-role="page" id="support">
+	<div data-role="header">
+    <a href="#home">Home</a>
+		<h1>Support</h1>
+	</div>
+	<div  data-role="content">
+		
+		<marquee class="ui-bar-a"> Any suggestion , wish or, any development issues. just write & send to us. </marquee> 
+		<form action="MAILTO:men918@gmail.com" method="post" enctype="text/plain">
+		Name:<br>
+		<input type="text" name="name" value="your name"><br>
+		E-mail:<br>
+		<input type="email" name="mail" value="@gmail.com"><br>
+		Comment:<br>
+		<TEXTAREA NAME="massage" ROWS="3" COLS="25">Please enter your special instructions.</TEXTAREA>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+		</form>
+		</div>
+	<div data-role="footer">
+		<h4>&copy; mahbub alam</h4>
+	</div>
+</div>
+
+<div data-role="page" id="keywords">
+	<div data-role="header">
+    <a href="#home">Home</a>
+		<h1> C Keywords</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">	
+		<ul data-role="listview">
+        	<h1> C89 Keywords</h1>
+			<li><a href="#">auto</a></li>
+            <li><a href="#">break</a></li>
+            <li><a href="#">case</a></li>
+            <li><a href="#">char</a></li>
+            <li><a href="#">const</a></li>
+            <li><a href="#">continue</a></li>
+            <li><a href="#">default</a></li>
+            <li><a href="#">do</a></li>
+            <li><a href="#">double</a></li>
+            <li><a href="#">else</a></li>
+            <li><a href="#">enum</a></li>
+            <li><a href="#">extern</a></li>
+            <li><a href="#">float</a></li>
+            <li><a href="#">for</a></li>
+            <li><a href="#">goto</a></li>
+            <li><a href="#">if</a></li>
+            <li><a href="#">int</a></li>
+            <li><a href="#">long</a></li>
+            <li><a href="#">register</a></li>
+            <li><a href="#">return</a></li>
+            <li><a href="#">short</a></li>
+            <li><a href="#">signed</a></li>
+            <li><a href="#">sizeof</a></li>
+            <li><a href="#">static</a></li>
+            <li><a href="#"><font color="#FF0000">struct</font></a></li>
+            <li><a href="#">switch</a></li>
+            <li><a href="#"><font color="#FF0000">typedef</font></a></li>
+            <li><a href="#">union</a></li>
+            <li><a href="#">unsigned</a></li>
+            <li><a href="#">void</a></li>
+            <li><a href="#">volatile</a></li>
+            <li><a href="#">while</a></li>
+            <h1>C99 Keyword</h1>
+            <li><a href="#">_Bool</a></li>
+            <li><a href="#"><font color="#FF0000">_Complex</font></a></li>
+            <li><a href="#"><font color="#FF0000">_Imaginary</font></a></li>
+            <li><a href="#">inline</a></li>
+            <li><a href="#"><font color="#FF0000">restrict</font></a></li>
+		</ul>		
+	</div>		
+	</div>
+	<div data-role="footer">
+		<h4>&copy;  mahbub alam</h4>
+	</div>
+</div>
+
+<div data-role="page" id="built-in">
+	<div data-role="header">
+    <a href="#home">Home</a>
+		<h1> C Built-in Function</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#assert">assert.h</a></li>
+            <li><a href="#complex">complex.h</a></li>
+			<li><a href="#conio">conio.h</a></li>
+			<li><a href="#ctype">ctype.h</a></li>
+			<li><a href="#dos">dos.h</a></li>
+            <li><a href="#errno">errno.h</a></li>
+            <li><a href="#float">float.h</a></li>
+            <li><a href="#graphics">graphics.h</a></li>
+            <li><a href="#inttypes">inttypes.h</a></li>
+            <li><a href="#limits">limits.h</a></li>
+            <li><a href="#locale">locale.h</a></li>
+            <li><a href="#math">math.h</a></li>
+            <li><a href="#setjmp">setjmp.h</a></li>
+            <li><a href="#signal">signal.h</a></li>
+            <li><a href="#stddarg">stddarg.h</a></li>
+            <li><a href="#stddrf">stddrf.h</a></li>
+            <li><a href="#stdio">stdio.h</a></li>
+            <li><a href="#stdlib">stdlib.h</a></li>
+            <li><a href="#string">string.h</a></li>
+            <li><a href="#term">term.h</a></li>
+            <li><a href="#time">time.h</a></li>
+            <li><a href="#utime">utime.h</a></li>
+            <li><a href="#wchar">wchar.h</a></li>
+            <li><a href="#wctype">wctype.h</a></li>
+		</ul>		
+	</div>
+	</div>
+	<div data-role="footer">
+		<h4>&copy;  mahbub alam</h4>
+	</div>
+</div>
+<div data-role="page" id="about" >
+	<div data-role="header">
+    <a href="#home">Home</a>
+		<h1>About</h1>
+	</div>
+	<div class="ui-bar-a" align="justify" data-role="content">
+	<img src="images/48.png" />
+	  <p>C Language<br>
+	  Version: 1.0<br>
+	  Language: EN<br>
+	  Developed by: A.O.Bangla soft</p>
+	  <p>
+	  <img src="images/mahbub.png" /><br>
+	  Developer: Mahbub Alam<br>
+	  B.Sc in CSE under National University at ISTT
+      <br>
+	  facebook: <a href="http://facebook.com/mahbub918/"><font color="green">mah</font><font color="red">bub</font><font color="green">918</font></a></p>
+	  </div>
+	<div data-role="footer">
+		<h4>&copy;  mahbub alam</h4>
+	</div>
+</div>
+<div data-role="page" id="assert">
+	<div data-role="header">
+		<a href="#built-in">Built-in</a>
+		<h1>assert.h</h1>
+	</div>
+	<div data-role="content">
+    <input type="text" value="void assert(scalar expression);" />
+     With assert you can test your programm for logical errors.
+
+The assert () macro will insert diagnostics into programs
+
+When executed, if expression (which is a scalar type you have) is false (ie, compares equal to 0),
+assert (), provide information about the particular call that failed to stderr and abort ()
+				
+	</div>
+</div>
+<div data-role="page" id="complex">
+	<div data-role="header">
+		<a href="#built-in">Built-in</a>
+		<h1>complex.h</h1>
+	</div>
+	<div data-role="content">
+    <h3>cabs</h3>
+    <input type="text" value="double cabs(double complex z);" />
+    cabs() compute the complex absolute value … also called modules, norm, or magnitude of z.
+    <h3> cacos </h3>
+    <input type="text" value="double complex cacos(double complex z);" />
+    compute the complex arc cosine of z
+with branch cuts outside the interval (from -1 to +1) along the real axis. 
+<h3> cacosh </h3>
+    <input type="text" value="double complex cacosh(double complex z);" />Calculate the Complex Arc Hyperbolic Cosine
+    Calculate the Complex Arc Hyperbolic Cosine 
+	<h3>  carg</h3>
+    <input type="text" value="double carg(double complex z); " />
+	Calculate the Argument 
+    <h3> casin </h3>
+    <input type="text" value="double complex casin(double complex z);" />
+    Calculate the Complex Arc Sine 
+	<h3> casinh </h3>
+    <input type="text" value="double complex casinh(double complex z);" />
+    calculate the complex arc hyperbolic sine 
+	<h3> catan </h3>
+    <input type="text" value="double complex catan(double complex z);" />
+    calculate the complex arc tangent
+	<h3> catanh </h3>
+    <input type="text" value="double complex catanh(double complex z);" />
+	calculate the complex arc hyperbolic tangent
+	<h3> ccos </h3>
+    <input type="text" value="double complex ccos(double complex z);" />
+	calculate the complex cosine
+	<h3> ccosh </h3>
+    <input type="text" value="double complex ccosh(double complex z);" />
+	calculate the complex hyperbolic cosine 
+	<h3> cexp </h3>
+    <input type="text" value="double complex cexp(double complex z);" />
+	calculate the complex exponential 
+	<h3> cimag </h3>
+    <input type="text" value="double cimag(double complex z);" />
+	calculate the complex imaginary part 
+	<h3> clog </h3>
+    <input type="text" value="double complex clog(double complex z);" />
+	calculate the complex logarithm
+	<h3> conj </h3>
+    <input type="text" value="double complex conj(double complex z);" />
+	calculate the complex conjugate
+	<h3> cpow </h3>
+    <input type="text" value="double complex cpow(double complex z);" />
+	calculate the complex power
+	<h3> cproj </h3>
+	<input type="text" value="double complex cproj(double complex z);" />
+	calculate the projection
+	<h3> creal </h3>
+    <input type="text" value="double complex catanh(double complex z);" />
+	calculate the complex real part
+	<h3> csin </h3>
+    <input type="text" value="double complex csin(double complex z);" />
+	calculate the complex sine 
+	<h3> csinh </h3>
+    <input type="text" value="double complex csinh(double complex z);" />
+	calculate the complex hyperbolic sine
+	<h3> csqrt </h3>
+    <input type="text" value="double complex csqrt(double complex z);" />
+	calculate the complex squareroot 
+	<h3> ctan </h3>
+    <input type="text" value="double complex ctan(double complex z);" />
+	calculate the complex tangent
+	<h3> ctanh </h3>
+    <input type="text" value="double complex ctanh(double complex z);" />
+	calculate the complex hyperbolic tangent
+	
+</div>
+	
+</div>
+<div data-role="page" id="conio">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>conio.h</h1>
+	</div>
+	<div data-role="content">
+    <h3>cgets</h3>
+    <input type="text" value="char *cgets(char *str);" />
+     Reads a string from the console.
+
+cgets reads a string of characters from the console and stores the string (and the string length) in the location pointed to by str.
+
+cgets reads as long as a sign to mark the combination carriage return / line feed (CR / LF) occurs or the maximum number of characters has been read. When reading cgets the CR / LF combination is replaced by the combination of characters \ 0 (null terminator) before the string is stored.
+
+Assign str[0] before calling cgets to the maximum length of the string to be read.
+After completion of the read operation st is assigned[1] the actual number of characters read.
+The reading begins with the character at position str[2] and ends with the null terminator.
+Consequently, at least str str[0] in length plus 2 bytes.
+
+return value: a pointer to str[2]
+	<h3> clreol </h3>
+    <input type="text" value="under development" />
+    <h3> clrscr </h3>
+    <input type="text" value="void clrscr(void);" />Calculate the Complex Arc Hyperbolic Cosine
+    clears the screen and move the cursor to upper left corner of the screen. 
+	<h3>  cprintf</h3>
+    <input type="text" value="int cprintf(const char *format[, argument, ...]);" />
+	 prints formatted output to the screen.
+
+cprintf takes multiple arguments, applies to each of the format specifier contained in the format string, pointed to by
+format, and prints the formatted data directly to the current text window on the screen. The number of available format
+must match the number of arguments.
+
+For more information on format specifiers, see printf format”.
+
+Depending _directvideo of the global variable, the string is written either directly or through a BIOS call to screen memory.
+
+To contrast to fprintf and printf, not translated cprintf line character (\ n) in the combination of characters carriage
+return / line feed (\ r \ n). Tab character (specified with t \) are not expanded to spaces. 
+    <h3> cputs </h3>
+    <input type="text" value="int cputs(const char *str);" />
+    Returns a string to the screen.
+
+cputs is the null-terminated string from str in the current text window. The newline character is not here appended to the string.
+
+Depending _directvideo of the global variable, the string is written either directly or through a BIOS call to screen memory.
+To contrast to fprintf and printf, not translated cputs line character (\ n) in the combination of characters carriage return / line feed (\ r \ n).
+	<h3> cscanf </h3>
+    <input type="text" value="int cscanf(char *format[, address, ...]);" />
+    reads input from the console and reformat it.
+
+cscanf reads directly from the console of a series of input fields one character at.
+Then each field is formatted according to the format specifier is passed cscanf in the format designated by the pointer format string.
+Finally stores cscanf formatted input to the direction indicated by the argument address memory address and shows the input on the screen.
+There must be as many format specifiers and addresses given as input fields
+	<h3> delline </h3>
+    <input type="text" value="void delline (void);" />
+    delete the line containing the cursor and move all lines below it one line up.
+	<h3> getch </h3>
+    <input type="text" value="int getch();" />
+	prompts the user to press a character and that character is not printed on screen
+	<h3> getche </h3>
+    <input type="text" value="char getche();" />
+	 Reads a character from the keyboard and display it on the screen.
+
+reads a single character from the keyboard, and there are direct or via a BIOS call made ​​in the current text window. 
+	<h3> getpass </h3>
+    <input type="text" value="char *getpass(const char *ptr);" />
+	 reads a password
+
+	getpass reads a password from the system console, after the user is prompted for a password to a null-terminated string and display the password has been disabled. A pointer to a null-terminated string of up to eight characters (not counting null terminator) is returned. 
+	<h3> gettext </h3>
+    <input type="text" value="int gettext(int left, int top, int right, int bottom, void *dst)" />
+	 copy text from a text mode window in memory.
+
+stores the text content of the rectangular area of ​​the screen, which is defined by left, top, right and bottom, and also stores it in the storage area pointed to by dst. all coordinates are absolute screen coordinates, not window-based. The top left corner has coordinates (1,1). sequentially reads the contents of the rectangle from the left to right and from top to bottom in the memory. each screen position is represented by 2 bytes in memory: The first byte contains the characters present in the cell, and the second byte contains the graphic attribute of the cell. The memory requirement for a rectangle with a width of w and a height of h columns goals is defined as follows:
+
+bytes = (h line) x (w columns) x 2
+
+returns returns 1 if the operation was successful else 0 
+	<h3> gettextinfo </h3>
+    <input type="text" value="void gettextinfo(struct text_info *r);" />
+	 Retrieves information from text-mode.
+
+transfers the current text mode video information into the structure text_info pointed to by r.
+
+available is wintop, winleft, winright, winbottom, attribute, normattr, currmode, screenheight, screenwidth, curx, cury 
+	<h3> gotoxy </h3>
+    <input type="text" value="void gotoxy( int x, int y);" />
+	places cursor at a desired location on screen. 
+	<h3> highvideo </h3>
+    <input type="text" value="void highvideo(void);" />
+	 Used to select the highlighted character.
+
+selects highlighted character by setting Intensity bits the current foreground color. This function has no effect on the characters that are currently displayed on the screen. 
+	<h3> insline </h3>
+    <input type="text" value="under development" />
+	<h3> kbhit </h3>
+	<input type="text" value="int kbhit();" />
+	used to find ou if a key has been pressed or not 
+	<h3> lowvideo </h3>
+    <input type="text" value="under development" />
+	<h3> movetext </h3>
+    <input type="text" value="under development" />
+	<h3> normvideo </h3>
+    <input type="text" value="under development" />
+	<h3> putch </h3>
+    <input type="text" value="int putch(int c);" />
+	 prints characters on the screen.
+
+putch gives the character c to the current text window. It is a text-mode function that displays output directly to the console.
+putch replaces the newline character (\ n) characters are not merchandise return / line feed.
+
+Depending _directvideo of the global variable, the string is written either directly or through a BIOS call to screen memory.
+
+Return values: success the character, failure EOF
+	<h3> puttext</h3>
+    <input type="text" value="under development" />
+	<h3> textbackground </h3>
+    <input type="text" value="void textbackground(int color);" />
+	change of current background color in text mode
+	BLACK 	0
+	BLUE 	1
+	GREEN 	2
+	CYAN 	3
+	RED 	4
+	MAGENTA 	5
+	BROWN 	6
+	LIGHTGRAY 	7
+	DARKGRAY 	8
+	LIGHTBLUE 	9
+	LIGHTGREEN 	10
+	LIGHTCYAN 	11
+	LIGHTRED 	12
+	LIGHTMAGENTA	13
+	YELLOW 	14
+	WHITE 	15
+	<h3> textcolor</h3>
+    <input type="text" value="void textcolor(int color);" />
+	change the color of drawing text where color is a integer variable 
+	BLACK 	0
+BLUE 	1
+GREEN 	2
+CYAN 	3
+RED 	4
+MAGENTA 	5
+BROWN 	6
+LIGHTGRAY 	7
+DARKGRAY 	8
+LIGHTBLUE 	9
+LIGHTGREEN 	10
+LIGHTCYAN 	11
+LIGHTRED 	12
+LIGHTMAGENTA	13
+YELLOW 	14
+WHITE 	15
+	<h3> textmode</h3>
+    <input type="text" value="under development" />
+	<h3> ungetch</h3>
+    <input type="text" value="int ungetch(int ch);" />
+	Pushes a character back into the keyboard buffer.
+
+return
+Successful execution ungetch returns the character ch.
+If an error occurs, the function returns EOF.
+	<h3> wherex</h3>
+    <input type="text" value="int wherex();" />
+	return current horizontal cursor position 
+	<h3> wherey</h3>
+    <input type="text" value="int wherey();" />
+	return current vertival cursor position 
+	<h3> window</h3>
+    <input type="text" value="void window(int left, int top, int right, int bottom);" />
+	 Defines the active text mode window.
+
+window defines a text window on the screen. If the coordinates are invalid, the call window is ignored. left and top are the screen coordinates of the upper left corner of the window. right, and bottom are the screen coordinates of the lower right corner of the window. 
+</div>
+	
+</div>
+<div data-role="page" id="ctype">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>ctype.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>isalnum</h3>
+    <input type="text" value="int isalnum(int char);" />
+	check if a character Alphanumeric
+	<h3>digittoint</h3>
+    <input type="text" value="under development" />
+	<h3>isalpha</h3>
+    <input type="text" value="int isalpha(int char);" />
+	check if a character Alphabetical
+	<h3>isascii</h3>
+    <input type="text" value="int isascii(int char);" />
+	a macro that tests if a char a ASCII char (0-127) is 
+	<h3>isblank</h3>
+    <input type="text" value="int isblank(int char);" />
+	Test if a char a space, only in C99 Compilers available 
+	<h3>iscntrl</h3>
+    <input type="text" value="int iscntrl(int char);" />
+	Tests if a character a control character
+	<h3>isdigit</h3>
+    <input type="text" value="int isdigit(int char);" />
+	tests if a character a digit 
+	<h3>isgraph</h3>
+    <input type="text" value="int isgraph(int char);" />
+	checks for any printing character except space (' ') 
+	<h3>islower</h3>
+    <input type="text" value="int islower(int char);" />
+	checks whether a character is lowercase 
+	<h3>isprint</h3>
+    <input type="text" value="int isprint(int char);" />
+	tests if character is printable 
+	<h3>ispunct</h3>
+    <input type="text" value="int ispunct(int char);" />
+	tests whether a character is punctuation mark 
+	<h3>isspace</h3>
+    <input type="text" value="int isspace(int char);" />
+	checks whether a character a space 
+	<h3>isupper</h3>
+    <input type="text" value="int isupper(int char);" />
+	tests wheather a char is in uppercase 
+	<h3>isxdigit</h3>
+    <input type="text" value="int isxdigit(int char);" />
+	checks whether a character is hexadecimal 
+	<h3>toascii</h3>
+    <input type="text" value="int toascii(int c);" />
+	a macro thats convert c(char) into ascii chars 
+	<h3>tolower</h3>
+    <input type="text" value="int tolower(int char);" />
+	Returns lower case type of the character
+	<h3>toupper</h3>
+    <input type="text" value="int toupper(int char);" />
+	Returns upper case type of the character
+	
+</div>
+	
+</div>
+<div data-role="page" id="dos">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>dos.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>delay</h3>
+    <input type="text" value="void delay(unsigned int);" />
+	delay function is used to suspend execution of a program for a particular time
+the parameter are number of milliseconds ( 1 second = 1000 milliseconds)
+	<h3>getdate</h3>
+    <input type="text" size="300" value=" struct date d;
+   getdate(&d);
+   printf("Date is %d/%d/%d\n",d.da_day,d.da_mon,d.da_year);" />
+Print current computer system date. 
+	<h3>gettime</h3>
+    <input type="text" value="struct time gettime( struct time );" />
+	gettime function is used to find current system time.
+returns structure varibale of type ( struct time ).
+	<h3>nosound</h3>
+    <input type="text" value="void nosound( void );" />
+	turn off the PC speaker. 
+	<h3>setdate</h3>
+    <input type="text" value="truct time setdate( struct time );" />
+	change the system date
+	<h3>sleep</h3>
+    <input type="text" value="void sleep(int);" />
+	delay programm for given number of seconds
+	<h3>sound</h3>
+    <input type="text" value="oid sound( unsigned int );" />
+	Producessound of a specified frequency.
+mostly used for adding music to c program
+random values and delay needed to make some strange sounds.
+</div>
+	
+</div>
+<div data-role="page" id="errno">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>errno.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>EDOM</h3>
+    <input type="text" value="#define EDOM (#if expression)" />
+	The macro entries the value saved in errno on a domain error.
+	<h3>EILSEQ </h3>
+    <input type="text" value="#define EILSEQ (#if expression)" />
+	The macro shows the value stored in errno on an invalid multibyte sequence.
+	<h3>ERANGE </h3>
+    <input type="text" value="#define ERANGE (#if expression)" />
+	The macro shows the value stored in errno on a range error.
+	<h3>errno </h3>
+	<input type="text" value="#define errno (int editable lvalue)" />
+	The macro names an object that is assigned a value greater than zero on given library errors.
+</div>
+
+</div>
+
+<div data-role="page" id="float">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>float.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>DBL_DIG</h3>
+	<input type="text" value="DBL_DIG" />
+	decimal digits of precision (10) 
+	<h3>DBL_EPSILON</h3>
+	<input type="text" value="DBL_EPSILON" />
+	smallest x so 1.0 + x != 1.0 (10 to the power of -9) 
+	<h3>DBL_MANT_DIG</h3>
+	<input type="text" value="DBL_MANT_DIG" />
+	number of digits in mantissa
+	<h3>DBL_MAX</h3>
+	<input type="text" value="DBL_MAX" />
+	max double floating point number (10 to the power of 37) 
+	<h3>DBL_MAX_EXP</h3>
+	<input type="text" value="DBL_MAX_EXP" />
+	maximum exponent 
+	<h3>DBL_MIN</h3>
+	<input type="text" value="DBL_MIN" />
+	min double floating point number (10 to the power of -37) 
+	<h3>DBL_MIN_EXP</h3>
+	<input type="text" value="DBL_MIN_EXP" />
+	minimum exponent
+	<h3>FLT_DIG</h3>
+	<input type="text" value="FLT_DIG" />
+	decimal digits of precision
+	<h3>FLT_EPSILON</h3>
+	<input type="text" value="FLT_EPSILON" />
+	smallest x so 1.0 + x != 1.0 (10 to the minus 5) 
+	<h3>FLT_MANT_DIG</h3>
+	<input type="text" value="FLT_MANT_DIG" />
+	number of digits in mantissa
+	<h3>FLT_MAX</h3>
+	<input type="text" value="FLT_MAX" />
+	maximum floating point number (10 to the power 37)
+	<h3>FLT_MAX_EXP</h3>
+	<input type="text" value="FLT_MAX_EXP" />
+	maximum exponent 
+	<h3>FLT_MIN</h3>
+	<input type="text" value="FLT_MIN" />
+	minimum floating point number (10 to the power -35) 
+	<h3>FLT_MIN_EXP</h3>
+	<input type="text" value="FLT_MIN_EXP" />
+	minimum exponent 
+	<h3>FLT_RADIX</h3>
+	<input type="text" value="FLT_RADIX" />
+	radix of exponent rep (2)
+	<h3>FLT_ROUNDS</h3>
+	<input type="text" value="FLT_ROUNDS" />	
+	floating point rounding mode 
+</div>
+</div>
+
+<div data-role="page" id="graphics" >
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>graphics.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>arc</h3>
+	<input type="text" value="under development"/>
+	<h3>bar</h3>
+	<input type="text" value="under development"/>
+	<h3>bar3d</h3>
+	<input type="text" value="under development"/>
+	<h3>circle</h3>
+	<input type="text" value="under development"/>
+	<h3>cleardevice</h3>
+	<input type="text" value="under development"/>
+	<h3>closegraph</h3>
+	<input type="text" value="under development"/>
+	<h3>drawpoly</h3>
+	<input type="text" value="under development"/>
+	<h3>ellipse</h3>
+	<input type="text" value="under development"/>
+	<h3>fillpoly</h3>
+	<input type="text" value="under development"/>
+	<h3>floodfill</h3>
+	<input type="text" value="under development"/>
+	<h3>getarccords</h3>
+	<input type="text" value="under development"/>
+	<h3>getbkcolor</h3>
+	<input type="text" value="under development"/>
+	<h3>getcolor</h3>
+	<input type="text" value="under development"/>
+	<h3>getdrivername</h3>
+	<input type="text" value="under development"/>
+	<h3>getimage</h3>
+	<input type="text" value="under development"/>
+	<h3>getmaxcolor</h3>
+	<input type="text" value="under development"/>
+	<h3>getmaxx</h3>
+	<input type="text" value="under development"/>
+	<h3>getmaxy</h3>
+	<input type="text" value="under development"/>
+	<h3>getpixel</h3>
+	<input type="text" value="under development"/>
+	<h3>getx</h3>
+	<input type="text" value="under development"/>
+	<h3>gety</h3>
+	<input type="text" value="under development"/>
+	<h3>graphdefaults</h3>
+	<input type="text" value="under development"/>
+	<h3>grapherrormsg</h3>
+	<input type="text" value="under development"/>
+	<h3>imagesize</h3>
+	<input type="text" value="under development"/>
+	<h3>line</h3>
+	<input type="text" value="under development"/>
+	<h3>linerel</h3>
+	<input type="text" value="under development"/>
+	<h3>lineto</h3>
+	<input type="text" value="under development"/>
+	<h3>moverel</h3>
+	<input type="text" value="under development"/>
+	<h3>moveto</h3>
+	<input type="text" value="under development"/>
+	<h3>outtext</h3>
+	<input type="text" value="under development"/>
+	<h3>outtextxy</h3>
+	<input type="text" value="under development"/>
+	<h3>pieslice</h3>
+	<input type="text" value="under development"/>
+	<h3>putimage</h3>
+	<input type="text" value="under development"/>
+	<h3>putpixel</h3>
+	<input type="text" value="under development"/>
+	<h3>rectangle</h3>
+	<input type="text" value="under development"/>
+	<h3>sector</h3>
+	<input type="text" value="under development"/>
+	<h3>setbkcolor</h3>
+	<input type="text" value="under development"/>
+	<h3>setcolor</h3>
+	<input type="text" value="under development"/>
+	<h3>setfillstyle</h3>
+	<input type="text" value="under development"/>
+	<h3>setlinestyle</h3>
+	<input type="text" value="under development"/>
+	<h3>settextstyle</h3>
+	<input type="text" value="under development"/>
+	<h3>setviewport</h3>
+	<input type="text" value="under development"/>
+	<h3>textheight</h3>
+	<input type="text" value="under development"/>
+	<h3>textwidth</h3>
+	<input type="text" value="under development"/>
+</div>
+</div>
+<div data-role="page" id="inttypes" >
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>inttypes.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>imaxabs</h3>
+	<input type="text" value="under development" />
+	<h3>imaxdiv</h3>
+	<input type="text" value="under development" />
+	<h3>strtoimax</h3>
+	<input type="text" value="under development" />
+	<h3>strtoumax</h3>
+	<input type="text" value="under development" />
+	<h3>wcstoimax</h3>
+	<input type="text" value="under development" />
+	<h3>wcstoumax</h3>
+	<input type="text" value="under development" />
+</div>
+</div>
+
+<div data-role="page" id="limits">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>limits.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>CHAR_BIT</h3>
+	<input type="text" value="CHAR_BIT" />
+	bits in char (8)
+	<h3>char_max</h3>
+	<input type="text" value="CHAR_MAX" />
+	max value of char (127 or 255)
+	<h3>char_min</h3>
+	<input type="text" value="CHAR_MIN" />
+	min value of char (-128 or 0) 
+	<h3>int_max</h3>
+	<input type="text" value="INT_MAX" />
+	max value of int (+33.767) 
+	<h3>int_min</h3>
+	<input type="text" value="INT_MIN" />
+	min value of int (-32.768) 
+	<h3>long_max</h3>
+	<input type="text" value="LONG_MAX" />
+	max value of long (+2.147.483.647)
+	<h3>long_min</h3>
+	<input type="text" value="LONG_MIN" />
+	min value of long (-2.147.483.648)
+	<h3>schar_max</h3>
+	<input type="text" value="SCHAR_MAX" />
+	max volume of signed char (+127) 
+	<h3>schar_min</h3>
+	<input type="text" value="SCHAR_MIN" />
+	min value of signed char (-128)
+	<h3>shrt_max</h3>
+	<input type="text" value="SHRT_MAX" />
+	SHRT_MAX max value of short (+32.767) 
+	<h3>shrt_min</h3>
+	<input type="text" value="SHRT_MIN" />
+	min value of short (-32.768) 
+	<h3>uchar_max</h3>
+	<input type="text" value="UCHAR_MAX" />
+	max value of unsigned char (255) 
+	<h3>uchar_min</h3>
+	<input type="text" value="under development" />
+	<h3>uint_max</h3>
+	<input type="text" value="UINT_MAX" />
+	max value of unsigned int (65.535) 
+	<h3>ulong_max</h3>
+	<input type="text" value="ULONG_MAX" />
+	max value of unsigned long (4.294.967.295) 
+	<h3>ushrt_max</h3>
+	<input type="text" value="USHRT_MAX" />
+	max value of unsigned short (65.536) 
+</div>
+</div>
+
+<div data-role="page" id="locale">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>locale.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>lc_all</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>lc_collate</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>lc_ctype</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>lc_monetary</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>lc_numeric</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>lc_time</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>lconv</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>localeconv</h3>
+	<input type="text" value="under developmentent"/>
+	<h3>setlocale</h3>
+	<input type="text" value="under developmentent"/>
+</div>
+</div>
+
+<div data-role="page" id="math">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>math.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>acos</h3>
+	<input type="text" value="double acos(double);" />
+	calculates arccosine
+	<h3>asin</h3>
+	<input type="text" value="double asin(double);" />
+	calculates arcsine from a number 
+	<h3>atan</h3>
+	<input type="text" value="double atan(double);" />
+	calculates acustangens from a number 
+	<h3>atan2</h3>
+	<input type="text" value="double atan2(double , double );" />
+	calculates arctangent from 2 numbers 
+	<h3>ceil</h3>
+	<input type="text" value="double ceil(double);" />
+	rounding up floating point 
+	<h3>cos</h3>
+	<input type="text" value="double cos(double);" />
+	calculates the cosine of a degree 
+	<h3>cosh</h3>
+	<input type="text" value="double cosh(double);" />
+	calculates the hyperbolic cosine of a number 
+	<h3>exp</h3>
+	<input type="text" value="double exp(double);" />
+	double exp(double);
+	<h3>fabs</h3>
+	<input type="text" value="double fabs(double);" />
+	calculates the absolute number of a given value 
+	<h3>floor</h3>
+	<input type="text" value=" double floor(double);" />
+	rounding down a number 
+	<h3>fmod</h3>
+	<input type="text" value="double fmod(double, double );" />
+	returns the remainder of a statement 
+	<h3>frexp</h3>
+	<input type="text" value="double frexp(double);" />
+	Mantissa m. in *n is the exponent. 
+	<h3>HUGE_VAL</h3>
+	<input type="text" value="#define HUGE_VAL <double rvalue>" />
+	The macro yields the value returned by some functions on a range error. The value can be a representation of infinity.
+	<h3>ldexp</h3>
+	<input type="text" value="double ldexp(double , int exp);" />
+	Returns x times 2 raised to n 
+	<h3>log</h3>
+	<input type="text" value="double log(double);" />
+	Natural logarithm of a number
+	<h3>log10</h3>
+	<input type="text" value="double log10(double);" />
+	base-10 logarithm of a number 
+	<h3>modf</h3>
+	<input type="text" value="double modf(double , double *int);" />
+	Splits completely paid off and returns the fractional part of x. 
+	<h3>pow</h3>
+	<input type="text" value="double pow(double, double );" />
+	pow() returns base raised to the exp power. 
+	<h3>sin</h3>
+	<input type="text" value="double sin(double);" />
+	return the sinus 
+	<h3>sinh</h3>
+	<input type="text" value="double sinh(double);" />
+	return the hyperbolic sinus
+	<h3>sqrt</h3>
+	<input type="text" value="double sqrt(double);"/>
+	returns the square root 
+	<h3>tan</h3>
+	<input type="text" value="double tan(double);"/>
+	Returns the tangent of a radian angle x. 
+	<h3>tanh</h3>
+	<input type="text" value="    double tanh(double);"/>
+	Returns hyperbolic tangent of a radian angle x. 
+</div>
+</div>
+	
+<div data-role="page" id="setjmp" />
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>setjmp.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>longjmp</h3>
+	<input type="text" value="void longjmp (jmp_buf env, int val);" />
+	get program state from the stack, useful for debugging. 
+	<h3>setjmp</h3>
+	<input type="text" value="int setjmp ( jmp_buf env );" />
+	</div>
+</div>
+
+<div data-role="page" id="signal" />
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>signal.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>raise</h3>
+	<input type="text" value="under development" />
+	</div>
+</div>
+
+<div data-role="page" id="stddarg" />
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>stddarg.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>va_arg</h3>
+	<input type="text" value="type va_arg(va_list ap, type);" />
+	 The va_arg() macro expands to an expression that has the type and value of the
+       next argument in the call.  The argument ap is the va_list ap initialized by
+       va_start().  Each call to va_arg() modifies ap so that the next call returns
+       the next argument.  The argument type is a type name specified so that the
+       type of a pointer to an object that has the specified type can be obtained
+       simply by adding a * to type.
+ 
+       The first use of the va_arg() macro after that of the va_start() macro returns
+       the argument after last.  Successive invocations return the values of the
+       remaining arguments.
+ 
+       If there is no next argument, or if type is not compatible with the type of
+       the actual next argument (as promoted according to the default argument
+       promotions), random errors will occur.
+ 
+       If ap is passed to a function that uses va_arg(ap,type) then the value of ap
+       is undefined after the return of that function.
+	<h3>va_copy</h3>
+	<input type="text" value="void va_copy(va_list dest, va_list src);" />
+	An obvious implementation would have a va_list be a pointer to the stack frame
+       of the variadic function.  In such a setup (by far the most common) there
+       seems nothing against an assignment
+ 
+           va_list aq = ap;
+ 
+       Unfortunately, there are also systems that make it an array of pointers (of
+       length 1), and there one needs
+ 
+           va_list aq;
+           *aq = *ap;
+ 
+       Finally, on systems where arguments are passed in registers, it may be
+       necessary for va_start() to allocate memory, store the arguments there, and
+       also an indication of which argument is next, so that va_arg() can step
+       through the list.  Now va_end() can free the allocated memory again.  To
+       accommodate this situation, C99 adds a macro va_copy(), so that the above
+       assignment can be replaced by
+	<h3>va_end</h3>
+	<input type="text" value="void va_end(va_list ap);" />
+	 Each invocation of va_start() must be matched by a corresponding invocation of
+       va_end() in the same function.  After the call va_end(ap) the variable ap is
+       undefined.  Multiple traversals of the list, each bracketed by va_start() and
+       va_end() are possible.  va_end() may be a macro or a function.
+	<h3>va_list</h3>
+	<input type="text" value="va_list argPointer;" />
+	va_list is a data type that is used for the macro variable arguments in function calls with any number of arguments to keep the arguments in a list. It is only for the macros va_start (), va_arg, va_end () function. 
+	<h3>va_start</h3>
+	<input type="text" value="void va_start(va_list ap, argN);" />
+	 The va_start() macro initializes ap for subsequent use by va_arg() and
+       va_end(), and must be called first.
+ 
+       The argument last is the name of the last argument before the variable
+       argument list, that is, the last argument of which the calling function knows
+       the type.
+ 
+       Because the address of this argument may be used in the va_start() macro, it
+       should not be declared as a register variable, or as a function or an array
+       type.
+	</div>
+</div>
+
+<div data-role="page" id="stddrf" />
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>stddrf.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>offsetof</h3>
+	<input type="text" value="offsetof(stype, mbr);" />
+	<h3>ptrdiff_t</h3>
+	<input type="text" value="typedef ptrdiff_t;" />
+	<h3>size_t;</h3>
+	<input type="text" value="typedef size_t;" />
+	<h3>wchar_t</h3>
+	<input type="text" value="typedef wchar_t;" />
+	</div>
+</div>
+
+<div data-role="page" id="stdio">
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>stdio.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>BUFSIZ</h3>
+	<input type="text" value="BUFSIZ" />
+	The value for BUFSIZ (buffer) should normally be 256 KB, 512 KB or 4096 KB. This depends on the system and the compiler. 
+	<h3>clearerr</h3>
+	<input type="text" value="void clearerr(FILE *stream);" />
+	The clearerr function resets the error flags and EOF indicator for the given stream.
+When an error occurs, you can use |perror()| to figure out which error actually occurred. 
+	<h3>fclose</h3>
+	<input type="text" value="int fclose( FILE *stream );" />
+	Close the current stream / file
+Used to close the specified file (stream). You should always use this function, to clean up after using a file.
+Any data that has been written to the file, but not actually made it that far yet, i.e. which has only been written to the file buffer in memory,
+will then be actually written to the physical file itself by the operating system.
+The space in memory allocated for these buffers will also be deallocated. Any user defined buffers (specified by setbuf and setvbuf will however, not be deallocated.
+Any temp files associated with the stream will also be deleted.
+
+Returns EOF on error, zero otherwise.
+	<h3>fdopen</h3>
+	<input type="text" value="FILE *fdopen(int fildes, const char *mode);" />
+	
+
+fdopen() is the counterpart to fileno(). As a mode, such as the file is opened, the same modes as the can open() can be used.
+
+fdopen() is often applied to file descriptors that are returned from functions that set up the pipes or channels of communication in networks. This is because some functions like open(), dup(), dup2(), fcntl(), pipe(), … in networks can not do anything with streams and require file descriptors. But to again generate descriptors from a stream (FILE pointer), the function fdopen required.
+Arguments
+
+Open a file
+Arguments for mode are:
+“r” Open a file for reading
+“w” Create / writing
+“a” Append
+“b” Open a binary file
+“rb” Open binary file for reading
+”+” Open file for read/write
+“r+” text update (reading and writing)
+“w+” text update, discarding previous content (if any)
+“a+” text append, reading, and writing at end
+example fdopen(“test.txt”, “r+”);, fdopen(“test.txt”, “w+”); fdopen(“test.txt”, “rw”); …
+	<h3>feof</h3>
+	<input type="text" value="int feof(FILE *stream);" />
+	checks that are applied to a stream or data or the end-of-file indicator is set.
+Used to determine if the end of the file (stream) specified, has been reached. When a file is being read sequentially one line, or one piece of data at a time (by means of a loop, say), this is the function you check every iteration, to see if the end of the file has come.
+Returns non-zero if end-of-file indicator is set for stream stream. 
+	<h3>ferror</h3>
+	<input type="text" value="int ferror(FILE *stream);" />
+	the function ferror tests the error indicator for the stream pointed to by stream, returning non-zero if it is set. The error indicator can only be reset by the clearerr function. Returns non-zero if error indicator is set for stream stream. 
+	<h3>fflush</h3>
+	<input type="text" value="int fflush(FILE *stream);" />
+	Flushes stream stream and returns zero on success or EOF on error. Effect undefined for input stream. fflush(NULL) flushes all output streams. 
+	<h3>fgetc</h3>
+	<input type="text" value="int fgetc ( FILE * stream );" />
+	Returns next character from (input) stream stream, or EOF on end-of-file or error. 
+	<h3>fgetpos</h3>
+	<input type="text" value="int fgetpos(FILE *stream, fpos_t *pos);" />
+	Stores current file position for stream stream in *pos. Returns non-zero on error. 
+	The fgetpos() function stores the file position indicator of the given file stream in the given position variable.
+The position variable is of type fpos_t (which is defined in stdio.h) and is an object that can hold every possible position in a FILE.
+fgetpos() returns zero upon success, and a non-zero value upon failure. 
+	<h3>fgets</h3>
+	<input type="text" value="char *fgets(char *str, int n, FILE *stream);" />
+	Copies characters from (input) stream stream to sstr, stopping when n-1 characters copied, newline copied, end-of-file reached or error occurs. If no error, str is NUL-terminated. Returns NULL on end-of-file or error, str otherwise. 
+	<h3>FILE</h3>
+	<input type="text" value="FILE Pointer (stream)" />
+	stream file
+	<h3>fopen</h3>
+	<input type="text" value="FILE  fopen (const char * restrict path, const char * restrict mode)" />
+	Opens file named restrict path and returns a stream, or NULL on failure. mode may be one of the following for files or one of those strings with b included (after the first character), for binary files. 
+	Arguments
+
+Open a file
+Arguments for mode are:
+“r” Open a file for reading
+“w” Create / writing
+“a” Append
+“b” Open a binary file
+“rb” Open binary file for reading
+”+” Open file for read/write
+“r+” text update (reading and writing)
+“w+” text update, discarding previous content (if any)
+“a+” text append, reading, and writing at end
+example fopen(“test.txt”, “r+”);, fopen(“test.txt”, “w+”); fopen(“test.txt”, “rw”); …
+	<h3>fpos_t</h3>
+	<input type="text" value="fpos_t" />
+	Object containing information to specify a position within a file This type of object is used to specify a position within a file. An object of this type is capable of specifying uniquely the position within a file. 
+	<h3>fprintf</h3>
+	<input type="text" value="int fprintf(FILE *stream, const char *format, ...);" />
+	 Converts (according to format format) and writes output to stream stream. Number of characters written, or negative value on error, is returned.
+
+optional flag:
+
+- left adjust
++ always sign
+0 zero pad
+# Alternate form: for conversion character o, first digit will be zero, for [xX], prefix 0x or 0X to non-zero value, for [eEfgG], always decimal point, for [gG] trailing zeros not removed.
+
+optional minimum width: if specified as *, value taken from next argument (which must be int).
+optional . (separating width from precision)
+optional precision: for conversion character s, maximum characters to be printed from the string, for [eEf], digits after decimal point, for [gG], significant digits, for an integer, minimum number of digits to be printed. If specified as *, value taken from next argument (which must be int).
+
+optional length modifier:
+
+h short or unsigned short
+l long or unsigned long
+L long double
+
+conversion character:
+
+d,i int argument, printed in signed decimal notation
+o int argument, printed in unsigned octal notation
+x,X int argument, printed in unsigned hexadecimal notation
+u int argument, printed in unsigned decimal notation
+c int argument, printed as single character
+s char* argument
+f double argument, printed with format [-]mmm.ddd
+e,E double argument, printed with format [-]m.dddddd(e|E)(+|-)xx
+g,G double argument
+p void* argument, printed as pointer
+n int* argument : the number of characters written to this point is written into argument
+% no argument; prints %
+	<h3>fputc</h3>
+	<input type="text" value="int fputc(int ch, FILE *stream); " />
+	Writes ch, to stream stream. Returns ch, or EOF on error. 
+	<h3>fputchar</h3>
+	<input type="text" value="int fputchar( int c );" />
+	The fputchar() function writes the character specified by the argument c to the output stream stdout. This function is identical to the putchar() function. 
+	<h3>fputs</h3>
+	<input type="text" value="int fputs(const char *str, FILE *stream);" />
+	Writes str, to (output) stream stream. Returns non-negative on success or EOF on error. 
+	<h3>fread</h3>
+	<input type="text" value="size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);" />
+	fread reads num number of objects from a stream (where each object is size bytes) and places them into the array pointed to by buffer. The return value of the function is the number of read data 
+	<h3>freopen</h3>
+	<input type="text" value="FILE *freopen( const char *fname, const char *mode, FILE *stream );" />
+	closes file associated with stream, then opens file filename with specified mode and associates it with stream. Returns stream or NULL on error. 
+	<h3>fscanf</h3>
+	<input type="text" value="int fscanf(FILE *stream, const char *format, ...);" />
+	 Performs formatted input conversion, reading from stream stream according to format format. The function returns when format is fully processed. Returns number of items converted and assigned, or EOF if end-of-file or error occurs before any conversion. Each of the arguments following format must be a pointer. Format string may contain:
+
+blanks and tabs, which are ignored
+ordinary characters, which are expected to match next non-white-space of input
+
+%
+optional assignment suppression character “*”
+optional maximum field width
+optional target width indicator:
+
+h argument is pointer to short rather than int
+l argument is pointer to long rather than int, or double rather than float
+L argument is pointer to long double rather than float
+
+conversion character:
+d decimal integer; int* parameter required
+i integer; int* parameter required; decimal, octal or hex
+o octal integer; int* parameter required
+u unsigned decimal integer; unsigned int* parameter required
+x hexadecimal integer; int* parameter required
+c characters; char* parameter required; white-space is not skipped, and NUL-termination is not performed
+s string of non-white-space; char* parameter required; string is NUL-terminated
+e,f,g floating-point number; float* parameter required
+p pointer value; void* parameter required
+n chars read so far; int* parameter required
+[…] longest non-empty string from specified set; char* parameter required; string is NUL-terminated
+[^…] longest non-empty string not from specified set; char* parameter required; string is NUL-terminated
+% literal %; no assignment
+	<h3>fseek</h3>
+	<input type="text" value="int fseek(FILE *stream, long int offset, int origin);" />
+	 Sets file position for stream stream and clears end-of-file indicator. For a binary stream, file position is set to offset bytes from the position indicated by origin: beginning of file for SEEK_SET, current position for SEEK_CUR, or end of file for SEEK_END. Behaviour is similar for a text stream, but offset must be zero or, for SEEK_SET only, a value returned by ftell. Returns non-zero on error.
+	<h3>fsetpos</h3>
+	<input type="text" value="int fsetpos(FILE *stream, const fpos_t *pos);" />
+	reset the position indicator to using fsetpos() stores the current file position indicator to the location indicated by the information in pos Returns non-zero on error. 
+	<h3>ftell</h3>
+	<input type="text" value="long int ftell(FILE *stream);" />
+	Returns current file position for stream stream, or -1 on error. 
+	<h3></h3>
+	<input type="text" value="size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);" />
+	The fwrite() function writes, from the array buffer, count objects of size size to stream. The return value is the number of objects written. 
+	<h3>getc</h3>
+	<input type="text" value="int getc(FILE *stream);" />
+	Returns next character from (input) stream stream, or EOF on end-of-file or error. 
+	<h3>getchar</h3>
+	<input type="text" value="int getchar( void );" />
+	Get a character
+	<h3>gets</h3>
+	<input type="text" value="char *gets(char *str);" />
+	Copies characters from stdin into str until newline encountered, end-of-file reached, or error occurs. Does not copy newline. NUL-terminates s. Returns str, or NULL on end-of-file or error. Should not be used because of the potential for buffer overflow. 
+	<h3>perror</h3>
+	<input type="text" value="void perror(const char *str);" />
+	Prints str (if non-null) and strerror(errno) to standard error as would: 
+	<h3>printf</h3>
+	<input type="text" value="int printf ( const char * restrict format, ... );" />
+	 The function printf prints format to STDOUT
+
+Code Description
+%c character value
+%s string of characters
+%d signed integer
+%i signed integer
+%f floating point value
+%e scientific notation, with a lowercase “e”
+%E scientific notation, with a uppercase “E”
+%g use %e or %f
+%G use %E or %f
+%o octal
+%u unsigned integer
+%x unsigned hexadecimal, with lowercase letters
+%X unsigned hexadecimal, with uppercase letters
+%p a pointer
+%n the argument shall be a pointer to an integer in which the number of characters written is placed
+%% shall be a % sign
+
+\n (newline)
+  \t (tab)
+  \v (vertical tab)
+  \f (new page)
+  \b (backspace)
+  \r (carriage return)
+	<h3>putc</h3>
+	<input type="text" value="int putc(int char, FILE *stream);" />
+	put char into a stream.
+	<h3>putchar</h3>
+	<input type="text" value="int putchar(int char);" />
+	put a character into stdout 
+	<h3>puts</h3>
+	<input type="text" value="int puts(const char *str);" />
+	Writes str (excluding terminating NUL) and a newline to stdout. Returns non-negative on success, EOF on error.
+	<h3>remove</h3>
+	<input type="text" value="int remove(const char *filename);" />
+	Removes specified file. Returns non-zero on failure. 
+	<h3>rename</h3>
+	<input type="text" value="int rename(const char *old_filename, const char *new_filename);" />
+	Changes name of file oldname to newname. Returns non-zero on failure. 
+	<h3>rewind</h3>
+	<input type="text" value="void rewind(FILE *stream);" />
+	equal like fseek(stream, 0L, SEEK_SET); clearerr(stream); Resets the read pointer to the beginning of the File and clear the error indicator 
+	<h3>scanf</h3>
+	<input type="text" value="int scanf(const char *format, ...);" />
+	The function returns the number of items that were successfully read
+EOF if the input stream reached its end, or a negative number if an error occurs.
+mostly like printf but for input.
+	<h3>setbuf</h3>
+	<input type="text" value="void setbuf(FILE *stream, char *buffer);" />
+	 Controls buffering for stream stream. For null buf, turns off buffering, otherwise equivalent to (void)setvbuf(stream, buf, _IOFBF, BUFSIZ).
+
+setbuf is deprecated use setvbuf instead 
+	<h3></h3>
+	<input type="text" value="int setvbuf(FILE *stream, char *buffer, int mode, size_t size);" />
+	Controls buffering for stream stream. mode is _IOFBF for full buffering, _IOLBF for line buffering, _IONBF for no buffering. Non-null buf specifies buffer of size size to be used; otherwise, a buffer is allocated. Returns non-zero on error. Call must be before any other operation on stream. 
+	_IOLBF   File will buffered line by line
+    _IONBF   Input/Output will not be buffered
+    _IOFBF   Input/Output will fully buffered
+	<h3>snprintf</h3>
+	<input type="text" value="int snprintf(char *restrict s, size_t n, const char *restrict format, ...);" />	
+The function snprintf() format the format specified by arguments of the printf format specification and writes the result to the specified string by dest. size specifies the maximum length of the string at least. The string in least receive in any case a terminating NULL character. In no case is dest [destsize - 1] also written.
+
+The return value is the number of characters that would have been written if the string would be least long enough.
+
+To avoid buffer overflows, use this function over strcat strcpy, strncpy and strncat are preferred, since it is costly for the latter functions to be held on the remaining available space in the string Array.
+	<h3>sscanf</h3>
+	<input type="text" value=" int sscanf(const char *str, const char *format, ...);" />
+	 sscanf reads formatted input text from the string addressed by source .
+No file input is performed. Following the format in the argument list may be one or more additional pointers addressing storage where the input values are stored.
+
+The string pointed to by format is in the same form as that used by fscanf.
+Refer to the fscanf description for detailed information concerning the formatting conventions. 
+	<h3>tmpfile</h3>
+	<input type="text" value=" FILE *tmpfile(void);" />
+	Creates temporary file which will be removed when closed or on normal program termination.
+standard mode (mode “wb+”)
+Returns stream or NULL on failure.
+	<h3>tmpnam</h3>
+	<input type="text" value="char *tmpnam(char *str);" />
+	Assigns to s (if s non-null) and returns unique name for a temporary file. Unique name is returned for each of the first TMP_MAX invocations.
+	<h3>ungetc</h3>
+	<input type="text" value="int ungetc(int chr, FILE *stream);" />
+	Pushes chr (which must not be EOF), onto (input) stream stream such that it will be returned by the next read. Only one character of pushback is guaranteed (for each stream). Returns chr, or EOF on error. 
+	<h3>vfprintf</h3>
+	<input type="text" value="int vfprintf(FILE *stream, const char *format, va_list arg);" />
+	Equivalent to fprintf with variable argument list replaced by arg, which must have been initialised by the va_start macro (and may have been used in calls to va_arg). 
+	<h3>vfscanf</h3>
+	<input type="text" value="int vfscanf ( FILE * stream, const char * format, va_list arg );" />
+	The vscanf(), vfscanf(), and vsscanf() functions shall be equivalent to the scanf(), fscanf(), and sscanf() functions, respectively, except that instead of being called with a variable number of arguments, they are called with an argument list as defined in the <stdarg.h> header. These functions shall not invoke the va_end macro. As these functions invoke the va_arg macro, the value of ap after the return is unspecified. 
+	<h3>vprintf</h3>
+	<input type="text" value="int vprintf(const char *format, va_list arg);" />
+	Equivalent to printf with variable argument list replaced by arg, which must have been initialised by the va_start macro (and may have been used in calls to va_arg).
+is used to generate a string from a format string and then print to standard output stdout. vprintf can understood as a combination of puts and vsprintf. 
+	<h3>vscanf</h3>
+	<input type="text" value="int vscanf(char * restrict format, va_list arg_ptr); " />
+	The functions vscanf(), vfscanf(), and vsscanf() are functionally equivalent to scanf(), fscanf(), and sscanf(), respectively, except that the argument list has been replaced by a pointer to a list of arguments. This pointer must be of type va_list, which is defined in the header . 
+	<h3>vsprintf</h3>
+	<input type="text" value="int vsprintf(char *str, const char *format, va_list arg);" />
+	generate a string from a format string. For this purpose, the buffer that is passed as first argument, the format string is copied and replaces the substitution symbol with the given parameters.
+	<h3>vsscanf</h3>
+	<input type="text" value="int vsscanf(const char *restrict s, const char *restrict format, va_list arg);" />
+	The vscanf(), vfscanf(), and vsscanf() functions shall be equivalent to the scanf(), fscanf(), and sscanf() functions, respectively, except that instead of being called with a variable number of arguments, they are called with an argument list as defined in the <stdarg.h> header. These functions shall not invoke the va_end macro. As these functions invoke the va_arg macro, the value of ap after the return is unspecified. 	
+</div>
+</div>
+
+<div data-role="page" id="stdlib" >
+	<div data-role="header">
+	<a href="#built-in" >Built-in</a>
+		<h1>stdlib.h</h1>
+	</div>
+	<div data-role="content">
+	<h2>Numeric conversions:</h2>
+	<h3>atof</h3>
+	<input type="text" value="double atof(const char *str);" />
+	The atof() function converts the initial portion of the string pointed to by
+       nptr to double.  The behavior is the same as
+ 
+           strtod(nptr, (char **) NULL);
+ 
+       except that atof() does not detect errors.
+	<h3>atoi</h3>
+	<input type="text" value="int atoi(const char *str);" />
+	convert a string to integer 
+	<h3>atol</h3>
+	<input type="text" value="long int atol(const char *str);" />
+	convert a string to long integer.
+	<h3>strtod</h3>
+	<input type="text" value="double strtod(const char *str, char **endptr);" />
+	strtod converts a string into a double variable.
+	<h3>strtol</h3>
+	<input type="text" value="long int strtol(const char *str, char **endptr, int base);" />
+	strtol Converting a string to an long integer
+str: the string to be converted
+endptr: address of a pointer variable that points to the last character read, so the character that is not owned by a number
+base: base between 2 and 36
+
+Be found unprefixed numbers, these numbers in base 10 are accepted.
+If the base '0 'is specified, the strings make a reference to the basis used
+(leading “0x” for hexadecimal, “0” for octal, numbers).
+	<h3>strtoul</h3>
+	<input type="text" value="unsigned long int strtoul(const char *str, char **endptr, int base);" />
+	strtoul Converting a string to an unsigned long integer
+str: the string to be converted
+endptr: address of a pointer variable that points to the last character read, so the character that is not owned by a number
+base: base between 2 and 36
+
+Be found unprefixed numbers, these numbers in base 10 are accepted.
+If the base '0 'is specified, the strings make a reference to the basis used
+(leading “0x” for hexadecimal, “0” for octal, numbers).
+	<h2>Mathematical functions:</h2>
+	<h3>abs</h3>
+	<input type="text" value="int abs(int i);" />
+	computes the absolute value of the integer i 
+	<h3>labs</h3>
+	<input type="text" value="long int labs(long int x);" />
+	computes the absolute value of a long integer
+
+returns the absolute value of a number
+the case of a negative number the sign is reversed, a positive number is returned unchanged.
+labs is functionally equivalent to abs (), but uses the data type long int
+	<h3>div</h3>
+	<input type="text" value="div_t div(int numerator, int denominator);" />
+	calculates the quotient and remainder from division. 
+	<h3>ldiv</h3>
+	<input type="text" value="ldiv_t ldiv(long int numerator, long int denominator);" />
+	calculate the quotient and remainder in integer division (long integer). 
+	
+	<h2>Widechar conversions:</h2>
+	<h3>wcstombs</h3>
+	<input type="text" value="size_t wcstombs(char *str, const wchar_t *pwcs, size_t n);" />
+	 wcstombs converts a wide character string into a multibyte character string.
+conversion stops after the size n is reached.
+
+The behavior of wcstombs is affected by the LC_CTYPE category of the current locale
+
+str = destination string
+pwcs = pointer to wide string
+n = chars to convert
+	<h3>wctomb</h3>
+	<input type="text" value="int wctomb(char *str, wchar_t wchar); " />
+	wctomb converts a wide character to a multibyte character in the string.
+wctomb maximum MB_CUR_MAX sign stores in a string.
+The behavior of wctomb is affected by the LC_CTYPE category of the current locale.
+	
+	<h2>Multibyte conversions / functions: </h2>
+	<h3>mblen</h3>
+	<input type="text" value="int mblen(const char *str, size_t n);" />
+	Determines how many bytes are used for a character. 
+	<h3>mbstowcs</h3>
+	<input type="text" value="size_t mbstowcs(schar_t *pwcs, const char *str, size_t n);" />
+	mbstowcs converts multibyte characters to wide characters 
+	<h3>mbtowc</h3>
+	<input type="text" value="int mbtowc(whcar_t *pwc, const char *str, size_t n);" />
+	converts a multibyte character into a wide character. 
+	
+	<h2>Memory manipulation:</h2>
+	<h3>calloc</h3>
+	<input type="text" value="void *calloc(size_t nitems, size_t size);" />
+The calloc() function shall allocate unused space for an array of nelem elements each of whose size in bytes is elsize.
+The space shall be initialized to all bits 0.
+
+The order and contiguity of storage allocated by successive calls to calloc() is unspecified.
+The pointer returned if the allocation succeeds shall be suitably aligned so that it may be assigned to a
+pointer to any type of object and then used to access such an object or an array of such objects in the space
+allocated (until the space is explicitly freed or reallocated). Each such allocation shall yield a pointer to an object disjoint
+from any other object. The pointer returned shall point to the start (lowest byte address) of the allocated space.
+If the space cannot be allocated, a null pointer shall be returned. If the size of the space requested is 0, the behavior
+is implementation-defined: the value returned shall be either a null pointer or a unique pointer.
+return value
+
+Upon successful completion with both nelem and elsize non-zero, calloc() shall return a pointer to the allocated space.
+If either nelem or elsize is 0, then either a null pointer or a unique pointer value that can be successfully passed to free() shall be returned.
+Otherwise, it shall return a null pointer and set errno to indicate the error.
+	<h3>free</h3>
+	<input type="text" value="void free(void *ptr);" />
+	The free() function shall cause the space pointed to by ptr to be deallocated; that is, made available for further allocation.
+If ptr is a null pointer, no action shall occur. Otherwise, if the argument does not match a pointer earlier returned by
+the calloc(), malloc(), posix_memalign(), realloc(), or strdup() function, or if the space has been deallocated by a call
+to free() or realloc(), the behavior is undefined.
+
+Any use of a pointer that refers to freed space results in undefined behavior.
+return value
+
+The free() function shall not return a value.
+	<h3>realloc</h3>
+	<input type="text" value="void *realloc(void *ptr, size_t size); " />
+The realloc() function shall change the size of the memory object pointed to by ptr to the size specified by size.
+The contents of the object shall remain unchanged up to the lesser of the new and old sizes.
+If the new size of the memory object would require movement of the object, the space for the previous instantiation of the object is freed.
+If the new size is larger, the contents of the newly allocated portion of the object are unspecified.
+If size is 0 and ptr is not a null pointer, the object pointed to is freed. If the space cannot be allocated, the object shall remain unchanged.
+
+If ptr is a null pointer, realloc() shall be equivalent to malloc() for the specified size.
+
+If ptr does not match a pointer returned earlier by calloc(), malloc(), or realloc() or if
+the space has previously been deallocated by a call to free() or realloc(), the behavior is undefined.
+
+The order and contiguity of storage allocated by successive calls to realloc() is unspecified.
+The pointer returned if the allocation succeeds shall be suitably aligned so that it may be assigned
+to a pointer to any type of object and then used to access such an object in the space allocated
+(until the space is explicitly freed or reallocated). Each such allocation shall yield a pointer to an object disjoint from any other object.
+The pointer returned shall point to the start (lowest byte address) of the allocated space. If the space cannot be allocated, a null pointer shall be returned.
+return value
+
+Upon successful completion with a size not equal to 0, realloc() shall return a pointer to the (possibly moved) allocated space.
+If size is 0, either a null pointer or a unique pointer that can be successfully passed to free() shall be returned.
+If there is not enough available memory, realloc() shall return a null pointer and set errno to [ENOMEM].
+	<h3>malloc</h3>
+	<input type="text" value="void *malloc(size_t size);" />
+	The malloc() function shall allocate unused space for an object whose size in bytes is specified by size and whose value is unspecified.
+
+The order and contiguity of storage allocated by successive calls to malloc() is unspecified.
+The pointer returned if the allocation succeeds shall be suitably aligned so that it may be assigned to a pointer
+to any type of object and then used to access such an object in the space allocated (until the space is explicitly freed or reallocated).
+Each such allocation shall yield a pointer to an object disjoint from any other object. The pointer returned points
+to the start (lowest byte address) of the allocated space. If the space cannot be allocated, a null pointer shall be returned.
+If the size of the space requested is 0, the behavior is implementation-defined: the value returned shall be either a null pointer or a unique pointer.
+return value
+
+RETURN VALUE
+
+Upon successful completion with size not equal to 0, malloc() shall return a pointer to the allocated space.
+If size is 0, either a null pointer or a unique pointer that can be successfully passed to free() shall be returned.
+Otherwise, it shall return a null pointer and set errno to indicate the error. 
+	<h2>Process control:</h2>
+	<h3>abort</h3>
+	<input type="text" value="void abort(void);" />
+	 Cause abnormal program termination, and try to catch SIGABRT.
+
+no return value 
+	<h3>atexit</h3>
+	<input type="text" value="int atexit(void (*func)(void));" />
+	The atexit function registers the given function to be called at normal
+       process termination
+ 
+       atexit returns the value 0 if successful, otherwise it returns
+       a nonzero value.
+	<h3>exit</h3>
+	<input type="text" value="void exit(int status);" />
+	exit causes the termination of a program.
+To the environment in which the program was started, a return code will be sent.
+	<h3>getenv</h3>
+	<input type="text" value="char *getenv(const char *name);" />
+	 getenv matches the string pointed to by name
+
+returns a pointer to the value in the environment, or NULL if there is no match.
+	<h3>system</h3>
+	<input type="text" value="int system(const char *string);" />
+	system calls a command on the shell
+	
+	<h2>Random number generation:</h2>
+	<h3>rand</h3>
+	<input type="text" value="int rand(void);" />
+	Generates a random Number.
+	<h3>srand</h3>
+	<input type="text" value="void srand(unsigned int seed);" />
+	srand is used to initialize the random number generator.
+The use of date / time to initialize the generator
+means that the generated sequence of numbers “random” is.
+	<h2>Operator:</h2>
+	<h3>sizeof</h3>
+	<input type="text" value="int sizeof(VALUE);" />
+	sizeof operator returns the number of bytes to be reserved for a variable or a data type. 
+	<h2>Array functions:</h2>
+	<h3>bsearch</h3>
+	<input type="text" value="void *bsearch(const void *key, const void *base, size_t nitems, size_t size, int (*compare)(const void *, const void *));" />
+	 key - The element that is searched for
+base - pointer to the first element of the array to be searched
+nitems - number of elements in the array
+size - size of a single element
+compare - comparison function to compare two elements together.
+return values:
+
+pointer to an entry in the array that matches the search key.
+If key not found, NULL pointer returned.
+	<h3>qsort</h3>
+	<input type="text" value="void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*));" />
+	 base = Pointer to elements
+nitems = Number of elements
+size = Size of one element
+compar = Pointer to comparison function
+
+qsort will sort an array of elements
+with using a comparison function.
+</div>
+</div>
+	
+<div data-role="page" id="string">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>string.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>memchr</h3>
+	<input type="text" value="void *memchr(const void *str, int c, size_t n);" />
+	memchr finds the firs occurrence of a character and return a pointer to it. 
+	<h3>memcmp</h3>
+	<input type="text" value="int memcmp(const void *str1, const void *str2, size_t n);" />
+	 check the size of a string and string2 and return a value
+
+  less 0 	string1 lesser than string2
+  equal 0 	string1 equal string2
+  greater 0 	string1 greater than string2
+	<h3>memcpy</h3>
+	<input type="text" value="void *memcpy(void *str1, const void *str2, size_t n); " />
+	Copy a string into another variable important here is to give the size of the string 
+	<h3>memmove</h3>
+	<input type="text" value="void *memmove(void *str1, const void *str2, size_t n);" />
+	str1: target memory block (at least size bytes in size)
+str2: source memory block (at least size bytes in size)
+n: number of bytes to be copied (The type size_t corresponds usually int))
+	<h3>memset</h3>
+	<input type="text" value="void *memset(void *str, int c, size_t n);" />
+	memset Fill / overwrite memory region with certain characters
+str = Target memory block /c string
+c = value byte that is used to overwrite
+n = number of chars to be copied
+	<h3>strcat</h3>
+	<input type="text" value="char *strcat(char *str1, const char *str2);" />
+	The strcat function concatenates two strings.
+str1 = target string to be added to source
+str2 = source string to copied, including '\ 0' at the end of destination.
+null byte of destination will be overwritten.
+	<h3>strchr</h3>
+	<input type="text" value="char *strchr(const char *str, int c);" />
+	strchr finds the first occurrence of a character and return a pointer to it. 
+	<h3>strcmp</h3>
+	<input type="text" value="int strcmp (const char *s1, const char *s)" />
+	 strcmp Compares 2 C strings.
+
+If both strings are identical, the return value of strcmp is 0.
+If the string s1 less than s2, the return value is less than 0,
+and s1 is greater than s2, then the return value greater than 0
+	<h3>strcoll</h3>
+	<input type="text" value="int strcoll(const char *str1, const char *str2);" />
+	strcoll compares 2 strings 
+	<h3>strcpy</h3>
+	<input type="text" value="char *strcpy(char *str1, const char *str2);" />
+	strcpy copy a c string pointed by str2 into the array pointed by str1 including the terminating null character. 
+	<h3>strcspn</h3>
+	<input type="text" value="size_t strcspn(const char *str1, const char *str2);" />
+	strcspn find the first occurrence of any character in str2 
+	<h3>strerror</h3>
+	<input type="text" value="char *strerror(int errnum);" />
+	returns a pointer to a string that describes the error code passed in the argument errnum 
+	<h3>strlen</h3>
+	<input type="text" value="size_t strlen(const char *str);" />
+	calculates the size of a char array
+	<h3>strncat</h3>
+	<input type="text" value="char *strncat(char *dest, const char *src, size_t n);" />
+	appends the src string to the dest string, overwriting the null byte ('\0') at the end of dest, and then adds a terminating null byte. The strings may not overlap, and the dest string must have enough space for the result. 
+	<h3>strncmp</h3>
+	<input type="text" value="int strncmp(const char *str1, const char *str2, size_t n);" />
+	The strcmp() function compares the two strings s1 and s2. It returns an integer less than, equal to, or greater than zero if s1 is found, respectively, to be less than, to match, or be greater than s2. The strncmp() function is similar, except it only compares the first (at most) n characters of s1 and s2. 
+	<h3>strncpy</h3>
+	<input type="text" value="char *strncpy(char *str1, const char *str2, size_t n);" />
+	Copy a given Number of Chars into another string
+	<h3>strpbrk</h3>
+	<input type="text" value="char *strpbrk(char *s1, const char *s2);" />
+	finds the first occurrence of a character. 
+	<h3>strrchr</h3>
+	<input type="text" value="char *strrchr(const char *str, int c);" />
+	strrchr () is a string function that finds the last occurrence of a character in a string. As a result, the pointer comes to this character or the null pointer if this character is not found.
+
+In the following example, a string is read by fgets. fgets hangs at the end of a New-line character (\ n). We are looking for a pointer to this character and replace it with a '\ 0' characters.
+	<h3>strspn</h3>
+	<input type="text" value="size_t strspn(const char *str1, const char *str2);" />
+	check different char by position
+	<h3>strstr</h3>
+	<input type="text" value="char *strstr(const char *str1, const char *str2);" />
+	change a word by another word in string.
+	<h3>strxfrm</h3>
+	<input type="text" value="size_t strxfrm(char *str1, const char *str2, size_t n);" />
+	The function strxfrm () transforms a null-terminated C string according to local settings. Thus the string can be safely compared using strcmp () with another. The transformed string is stored in a new string. 
+</div>
+</div>
+
+<div data-role="page" id="term">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>term.h</h1>
+	</div>
+	<div data-role="content">	
+	<h3>del_curterm</h3>
+	<input type="text" value="under development" />
+	<h3>putp</h3>
+	<input type="text" value="under development" />
+	<h3>restartterm</h3>
+	<input type="text" value="under development" />
+	<h3>set_curterm</h3>
+	<input type="text" value="under development" />
+	<h3>setupterm</h3>
+	<input type="text" value="under development" />
+	<h3>tgetent</h3>
+	<input type="text" value="under development" />
+	<h3>tgetflag</h3>
+	<input type="text" value="under development" />
+	<h3>tgetnum</h3>
+	<input type="text" value="under development" />
+	<h3>tgetstr</h3>
+	<input type="text" value="under development" />
+	<h3>tgoto</h3>
+	<input type="text" value="under development" />
+	<h3>tigetflag</h3>
+	<input type="text" value="under development" />
+	<h3>tigetnum</h3>
+	<input type="text" value="under development" />
+	<h3>tigetstr</h3>
+	<input type="text" value="under development" />
+	<h3>tparm</h3>
+	<input type="text" value="under development" />
+	<h3>tputs</h3>
+	<input type="text" value="under development" />
+</div>
+</div>
+
+<div data-role="page" id="time">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>time.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>asctime</h3>
+	<input type="text" value="char *asctime(const struct tm *timeptr);" />
+	The function asctime() converts the time in the struct ptr to a character string of the format: Day Month Date Hour:Minute:Second Year\n\0 
+	<h3>clock</h3>
+	<input type="text" value="clock_t clock(void);" />
+	The clock() function returns the processor time since the program started, or -1 if that information is unavailable.
+To convert the return value to seconds, divide it by CLOCKS_PER_SEC. (Note: if your compiler is POSIX compliant, then CLOCKS_PER_SEC is always defined as 1000000.) 
+	<h3>clock_t</h3>
+	<input type="text" value="typedef a-type clock_t;" />
+	The type is the arithmetic type a-type of an object that you declare to hold the value returned by clock, representing elapsed processor time.
+
+c/time.h/clock_t.txt · Last modified: 2013/01/22 22:02 (external edit)
+Page Tools
+
+    Edit this page
+    Old revisions
+    Backlinks
+    Back to top
+	<h3>CLOCKS_PER_SEC</h3>
+	<input type="text" value="#define CLOCKS_PER_SEC <integer constant expression > 0>" />
+	The macro yields the number of clock ticks, returned by clock, in one second.
+	<h3></h3>
+	<input type="text" value="char *ctime(const time_t *timer);" />
+	The ctime() function shall convert the time pointed to by clock, representing time in seconds since the Epoch, to local time in the form of a string. It shall be equivalent to 
+	   <font color="red">asctime(localtime(clock))</font>
+	 1970-01-01 00:00:00 +0000 (UTC).
+return value
+
+The ctime() function shall return the pointer returned by asctime() with that broken-down time as an argument.
+Upon successful completion, ctime_r() shall return a pointer to the string pointed to by buf. When an error is encountered, a null pointer shall be returned.
+
+	<h3>difftime</h3>
+	<input type="text" value="double difftime(time_t time1, time_t time2);" />
+	<h3>gmtime</h3>
+	<input type="text" value="struct tm *gmtime(const time_t *timer);" />
+	<h3>localtime</h3>
+	<input type="text" value="struct tm *localtime(const time_t *timer);" />
+	<h3>mktime</h3>
+	<input type="text" value="time_t mktime(struct tm *timeptr);" />
+	<h3>strftime</h3>
+	<input type="text" value="size_t strftime(char *str, size_t maxsize, const char *format, const struct tm *timeptr);" />
+	<h3>strptime</h3>
+	<input type="text" value="char *strptime(const char *restrict buf, const char *restrict format, struct tm *restrict tm);" />
+	<h3>time</h3>
+	<input type="text" value="time_t time(time_t *timer);" />
+	<h3>time_t</h3>
+	<input type="text" value="typedef a-type time_t;" />
+	<h3>tm</h3>
+	<font color="red">Under tm_ all are same. but define something other as like tm_sec for second. so this description is fot all tm_</font>
+	<input type="text" value="struct tm { elements};" />
+	struct tm contains members that describe various properties of the calendar time. The members shown above can occur in any order,
+interspersed with additional members. The comment following each member briefly describes its meaning.
+
+The member tm_isdst contains:
+
+a positive value if Daylight Saving Time is in effect
+zero if Daylight Saving Time is not in effect
+a negative value if the status of Daylight Saving Time is not known (so the target environment should attempt to determine its status)
+
+	<h3>tm_sec</h3>
+	<input type="text" value="int tm_sec;" />
+	seconds after the minute (from 0)
+	<h3>tm_min</h3>
+	<input type="text" value="int tm_min;" />
+	minutes after the hour (from 0)
+	<h3>tm_hour</h3>
+	<input type="text" value=" int tm_hour;" />
+	hour of the day (from 0)
+	<h3>tm_mday</h3>
+	<input type="text" value="int tm_mday;" />
+	day of the month (from 1)
+	<h3>tm_mon</h3>
+	<input type="text" value="int tm_mon;" />
+	month of the year (from 0)
+	<h3>tm_year</h3>
+	<input type="text" value="int tm_year;" />
+	years since 1900 (from 0)
+	<h3>tm_wday</h3>
+	<input type="text" value="int tm_wday;" />
+	days since Sunday (from 0)
+	<h3>tm_yday</h3>
+	<input type="text" value="int tm_yday;" />
+	day of the year (from 0)
+	<h3>tm_isdst</h3>
+	<input type="text" value="int tm_isdst;" />
+	Daylight Saving Time flag
+	
+	</div>
+</div>
+
+<div data-role="page" id="utime">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>utime.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>utime</h3>
+	<input type="text" value="int utime(const char *path, const struct utimbuf *times);" />
+</div>
+</div>
+
+<div data-role="page" id="wchar">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>wchar.h</h1>
+	</div>
+	<div data-role="content">
+	<h3>btowc</h3>
+	<input type="text" value="wint_t btowc(int);"/>
+convert a byte to wide character btowc returns the wide two byte character “wchar_t” converted from the single byte “string” character (char).
+return value
+
+If the argument is not a valid multibyte sequence of length 1 btowc returns WEOF.
+output is affected by the current LC_TYPE locale.
+	<h3>fgetwc</h3>
+	<input type="text" value="wint_t fgetwc(FILE *);"/>
+	fgetwc reads in a single character from Stream and returns its value as a wide character. 
+	<h3>fgetws</h3>
+	<input type="text" value="wchar_t *fgetws(wchar_t *restrict, int, FILE *stream);"/>
+	fgetws reads wide characters into “*restrict” from “stream”
+fgetws will also stop reading if it encounters a newline character. In which case,
+the newline character will put into the string as long as the number of characters
+does not exceed “length - 1”.
+
+The function will also stop reading if it reaches the end of the stream.
+If an error or EOF occurs, the function returns NULL instead of a widechar string Depending
+on whether the mode is binary or text, the function will read “*stream” as a wide-character or multibyte-character string, respectively.
+	<h3>fputwc</h3>
+	<input type="text" value=" wint_t fputwc(wchar_t, FILE *);"/>
+	fputwc writes a single wide-character to the stream at the position of the file pointer and advances the pointer.
+If the write was successful, the character that was written is returned. Otherwise, the function returns WEOF.
+	<h3>fputws</h3>
+	<input type="text" value="int fputws(const wchar_t *string, FILE *stream);"/>
+	fputws writes the wide-character string to the stream, at the position of the file pointer and advances the pointer.
+If the write was successful, a nonnegative integer value is returned. Otherwise, the function returns WEOF.
+	<h3>fwide</h3>
+	<input type="text" value="int fwide(FILE *stream, int mode);"/>
+	 fwide shall determine the orientation of the stream pointed to by stream.
+return value
+
+greater than 0 if, after the call, the stream has wide-orientation
+less than 0 if the stream has byte-orientation
+0 if the stream has no orientation.
+	<h3>fwprintf</h3>
+	<input type="text" value="int fwprintf(FILE *restrict, const wchar_t *restrict, ...);"/>
+	<h3>fwscanf</h3>
+	<input type="text" value="int fwscanf(FILE *restrict, const wchar_t *restrict, ...);"/>
+	<h3>getwc</h3>
+	<input type="text" value="wint_t getwc(FILE *);"/>
+	<h3>getwchar</h3>
+	<input type="text" value=" wint_t getwchar(void);"/>
+	<h3>iswalnum</h3>
+	<input type="text" value="int iswalnum(wint_t);"/>
+	<h3>iswalpha</h3>
+	<input type="text" value="int iswalpha(wint_t);"/>
+	<h3>iswcntrl</h3>
+	<input type="text" value="int iswcntrl(wint_t);"/>
+	<h3>iswctype</h3>
+	<input type="text" value="int iswctype(wint_t, wctype_t);"/>
+	<h3>iswdigit</h3>
+	<input type="text" value="int iswdigit(wint_t);"/>
+	<h3>iswgraph</h3>
+	<input type="text" value="int iswgraph(wint_t);"/>
+	<h3>iswlower</h3>
+	<input type="text" value="int iswlower(wint_t);"/>
+	<h3>iswprint</h3>
+	<input type="text" value="int iswprint(wint_t);"/>
+	<h3>iswpunct</h3>
+	<input type="text" value="int iswpunct(wint_t);"/>
+	<h3>iswspace</h3>
+	<input type="text" value="int iswspace(wint_t);"/>
+	<h3></h3>
+	<input type="text" value="int iswupper(wint_t);"/>
+	<h3>iswxdigit</h3>
+	<input type="text" value="int iswxdigit(wint_t);"/>
+	<h3>mbrlen</h3>
+	<input type="text" value="size_t mbrlen(const char *restrict, size_t, mbstate_t *restrict);"/>
+	<h3>mbrtowc</h3>
+	<input type="text" value="size_t mbrtowc(wchar_t *restrict, const char *restrict, size_t, mbstate_t *restrict);"/>
+	<h3>mbsinit</h3>
+	<input type="text" value="int mbsinit(const mbstate_t *);"/>
+	<h3>mbsrtowcs</h3>
+	<input type="text" value="size_t mbsrtowcs(wchar_t *restrict, const char **restrict, size_t, mbstate_t *restrict);"/>
+	<h3>putwc</h3>
+	<input type="text" value="wint_t putwc(wchar_t, FILE *);"/>
+	<h3>putwchar</h3>
+	<input type="text" value="wint_t putwchar(wchar_t);"/>
+	<h3>swprintf</h3>
+	<input type="text" value="int swprintf(wchar_t *restrict, size_t, const wchar_t *restrict, ...);"/>
+	<h3>swscanf</h3>
+	<input type="text" value="int swscanf(const wchar_t *restrict, const wchar_t *restrict, ...);"/>
+	<h3>towlower</h3>
+	<input type="text" value="wint_t towlower(wint_t);"/>
+	<h3>towupper</h3>
+	<input type="text" value="uwint_t towupper(wint_t);"/>
+	<h3>ungetwc</h3>
+	<input type="text" value="wint_t ungetwc(wint_t, FILE *);"/>
+	<h3>vfwprintf</h3>
+	<input type="text" value="int vfwprintf(FILE *restrict, const wchar_t *restrict, va_list);"/>
+	<h3>vfwscanf</h3>
+	<input type="text" value="int vfwscanf(FILE *restrict, const wchar_t *restrict, va_list);"/>
+	<h3>vswprintf</h3>
+	<input type="text" value="int vswprintf(wchar_t *restrict, size_t, const wchar_t *restrict, va_list);"/>
+	<h3>vswscanf</h3>
+	<input type="text" value="int vswscanf(const wchar_t *restrict, const wchar_t *restrict, va_list);"/>
+	<h3>vwprintf</h3>
+	<input type="text" value="int vwprintf(const wchar_t *restrict, va_list);"/>
+	<h3>vwscanf</h3>
+	<input type="text" value="int vwscanf(const wchar_t *restrict, va_list);"/>
+	<h3>wcrtomb</h3>
+	<input type="text" value="size_t wcrtomb(char *restrict, wchar_t, mbstate_t *restrict);"/>
+	<h3>wcscat</h3>
+	<input type="text" value="wchar_t *wcscat(wchar_t *restrict, const wchar_t *restrict);"/>
+	<h3>wcschr</h3>
+	<input type="text" value="wchar_t *wcschr(const wchar_t *, wchar_t);"/>
+	<h3>wcscmp</h3>
+	<input type="text" value="int wcscmp(const wchar_t *, const wchar_t *);"/>
+	<h3>wcscoll</h3>
+	<input type="text" value="int wcscoll(const wchar_t *, const wchar_t *);"/>
+	<h3>wcscpy</h3>
+	<input type="text" value="wchar_t *wcscpy(wchar_t *restrict, const wchar_t *restrict);"/>
+	<h3>wcscspn</h3>
+	<input type="text" value="size_t wcscspn(const wchar_t *, const wchar_t *)"/>
+	<h3>wcsftime</h3>
+	<input type="text" value="size_t wcsftime(wchar_t *restrict, size_t, const wchar_t *restrict, const struct tm *restrict);"/>
+	<h3>wcslen</h3>
+	<input type="text" value="size_t wcslen(const wchar_t *);"/>
+	<h3>wcsncat</h3>
+	<input type="text" value="wchar_t *wcsncat(wchar_t *restrict, const wchar_t *restrict, size_t);"/>
+	<h3>wcsncmp</h3>
+	<input type="text" value="int  wcsncmp(const wchar_t *, const wchar_t *, size_t);"/>
+	<h3>wcsncpy</h3>
+	<input type="text" value="wchar_t *wcsncpy(wchar_t *restrict, const wchar_t *restrict, size_t);"/>
+	<h3>wcspbrk</h3>
+	<input type="text" value="wchar_t *wcspbrk(const wchar_t *, const wchar_t *);"/>
+	<h3>wcsrchr</h3>
+	<input type="text" value="wchar_t *wcsrchr(const wchar_t *, wchar_t);"/>
+	<h3>wcsrtombs</h3>
+	<input type="text" value="size_t wcsrtombs(char *restrict, const wchar_t **restrict, size_t, mbstate_t *restrict);"/>
+	<h3>wcsspn</h3>
+	<input type="text" value="size_t wcsspn(const wchar_t *, const wchar_t *);"/>
+	<h3>wcsstr</h3>
+	<input type="text" value="wchar_t  *wcsstr(const wchar_t *restrict, const wchar_t *restrict);"/>
+	<h3>wcstod</h3>
+	<input type="text" value="double  wcstod(const wchar_t *restrict, wchar_t **restrict);"/>
+	<h3>wcstof</h3>
+	<input type="text" value="float wcstof(const wchar_t *restrict, wchar_t **restrict); "/>
+	<h3>wcstok</h3>
+	<input type="text" value="wchar_t *wcstok(wchar_t *restrict, const wchar_t *restrict, wchar_t **restrict);"/>
+	<h3>wcstol</h3>
+	<input type="text" value="long wcstol(const wchar_t *restrict, wchar_t **restrict, int);"/>
+	
+	<h3>wcstold</h3>
+	<input type="text" value="long double wcstold(const wchar_t *restrict, wchar_t **restrict);"/>
+	<h3>wcstoll</h3>
+	<input type="text" value="long long wcstoll(const wchar_t *restrict, wchar_t **restrict, int);"/>
+	<h3>wcstoul</h3>
+	<input type="text" value="unsigned long wcstoul(const wchar_t *restrict, wchar_t **restrict, int);"/>
+	<h3>wcstoull</h3>
+	<input type="text" value="unsigned long long wcstoull(const wchar_t *restrict, wchar_t **restrict, int);"/>
+	<h3>wcswcs</h3>
+	<input type="text" value="wchar_t *wcswcs(const wchar_t *, const wchar_t *);"/>
+	<h3>wcswidth</h3>
+	<input type="text" value="int wcswidth(const wchar_t *, size_t);"/>
+	<h3>wcsxfrm</h3>
+	<input type="text" value="size_t wcsxfrm(wchar_t *restrict, const wchar_t *restrict, size_t);"/>
+	<h3>wctob</h3>
+	<input type="text" value="int wctob(wint_t);"/>
+	<h3>wctype</h3>
+	<input type="text" value=" wctype_t      wctype(const char *);"/>
+	<h3>wcwidth</h3>
+	<input type="text" value="int wcwidth(wchar_t);"/>
+	<h3>wmemchr</h3>
+	<input type="text" value="wchar_t *wmemchr(const wchar_t *, wchar_t, size_t);"/>
+	<h3>wmemcmp</h3>
+	<input type="text" value="int wmemcmp(const wchar_t *, const wchar_t *, size_t);"/>
+	<h3>wmemcpy</h3>
+	<input type="text" value="wchar_t *wmemcpy(wchar_t *restrict, const wchar_t *restrict, size_t);"/>
+	<h3>wmemmove</h3>
+	<input type="text" value="wchar_t *wmemmove(wchar_t *, const wchar_t *, size_t);"/>
+	<h3>wmemset</h3>
+	<input type="text" value="wchar_t *wmemset(wchar_t *, wchar_t, size_t);"/>
+	<h3>wprintf</h3>
+	<input type="text" value="int wprintf(const wchar_t *restrict, ...);"/>
+	<h3>wscanf</h3>
+	<input type="text" value="int wscanf(const wchar_t *restrict, ...);"/>
+</div>
+</div>
+
+
+<div data-role="page" id="wctype">
+	<div data-role="header" >
+	<a href="#built-in" >Built-in</a>
+		<h1>wctype.h</h1>
+	</div>
+	<div data-role="content">	
+	<h3>iswalnum</h3>
+	<input type="text" value="under development"/>
+	<h3>iswalpha</h3>
+	<input type="text" value=""/>
+	<h3>iswcntrl</h3>
+	<input type="text" value="under development"/>
+	<h3>iswctype</h3>
+	<input type="text" value="under development"/>
+	<h3>iswdigit</h3>
+	<input type="text" value=""/>
+	<h3>iswgraph</h3>
+	<input type="text" value="under development"/>
+	<h3>iswlower</h3>
+	<input type="text" value="under development"/>
+	<h3>iswprint</h3>
+	<input type="text" value=""/>
+	<h3>iswpunct</h3>
+	<input type="text" value="under development"/>
+	<h3>iswspace</h3>
+	<input type="text" value="under development"/>
+	<h3>iswupper</h3>
+	<input type="text" value="under development"/>
+	<h3>iswxdigit</h3>
+	<input type="text" value="under development"/>
+	<h3>towctrans</h3>
+	<input type="text" value="under development"/>
+	<h3>towlower</h3>
+	<input type="text" value="under development"/>
+	<h3>towupper</h3>
+	<input type="text" value="under development"/>
+	<h3>wctrans</h3>
+	<input type="text" value="under development"/>
+	<h3>wctype</h3>
+	<input type="text" value=""/>
+	</div>
+</div>
+
+</body>
+</html>
